@@ -42,7 +42,13 @@ section > p {
 }
 section.imagem p {
     width: 350px;
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(97, 89, 89, 0.329);
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+    background-attachment: fixed;
 }
 
 header a, footer a {
@@ -55,7 +61,7 @@ header a:hover, footer a:hover{
 }
 section.normal {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 footer {
@@ -63,4 +69,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
